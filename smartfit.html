@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Fit</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #1e40af;
+            color: white;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between; 
+            align-items: center;
+        }
+        .profile {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .profile img {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+        }
+        .title {
+            flex-grow: 1; 
+            text-align: center; 
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .nav-bar {
+            background-color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            color: #1e40af;
+            font-weight: bold;
+        }
+        main {
+            display: flex;
+            gap: 20px;
+            padding: 20px;
+            max-width: 1200px;
+            margin: 20px auto;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .left-content img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .right-content {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 15px;
+            text-align: center; 
+        }
+        .right-content p {
+            line-height: 1.6;
+        }
+        .action-section a {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: black;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        .action-section a:hover {
+            background-color: #555;
+        }
+        
+        .bottom-section {
+            margin-top: 20px;
+            text-align: center;
+        }
+        .bottom-section img {
+            width: 100%;
+            max-width: 600px;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+        .location {
+            font-size: 18px;
+            color: #333;
+            margin-top: 10px;
+        }
+        .button-container a {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #1e40af;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        .button-container a:hover {
+            background-color: #555;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #1e40af;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="profile">
+            <img src="Imagens/lupa.jpg" alt="Logotipo">
+        </div>
+        <div class="title">Guia Fácil</div> 
+        <div class="nav-bar">Sobre</div>
+    </header>
+    <main>
+        <div class="left-content">
+            <img src="Imagens/smartfit2.webp" alt="Imagem Exemplo">
+        </div>
+        <div class="right-content">
+            <h2>Tudo sobre Smart Fit</h2>
+            <p>A Smart Fit é a maior rede de academias esportivas fora dos Estados Unidos, líder no segmento na América Latina e a 3ª maior do mundo. Em 2022, tinha cerca de 1 225 unidades no Brasil e em outros 14 países da região, além de mais de 3,7 milhões de clientes matriculados.</p>
+            <p>Smartfit Escola de Ginástica e Dança S.A.</p>
+            <div class="action-section">
+                <a href="index.html">Voltar</a>
+            </div>
+        </div>
+    </main>
+    
+    <div class="bottom-section">
+        <img src="Imagens/Localização Smart fit.png" alt="Localização da smartfit">
+        <p>
+            Av. Comendador Sant'Anna, 634 - Capão Redondo, São Paulo - SP, 05866-000
+        </p>
+        <div class="button-container">
+            <a href="https://www.google.com.br/maps/place/Av.+Comendador+Sant'Anna,+634+-+Cap%C3%A3o+Redondo,+S%C3%A3o+Paulo+-+SP,+05866-000/@-23.6723612,-46.7763778,17z/data=!3m1!4b1!4m6!3m5!1s0x94ce53b32f4ed35b:0xeebfc28d6f2aae31!8m2!3d-23.6723612!4d-46.7738029!16s%2Fg%2F11bw4hlb8k?entry=ttu&g_ep=EgoyMDI0MTExMi4wIKXMDSoASAFQAw%3D%3D" target="_blank">📍 Ver no Google Maps</a>
+            <a href="index.html">Voltar</a>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Gabriel Silva. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

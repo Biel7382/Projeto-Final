@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drogasil</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #1e40af;
+            color: white;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .profile {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .profile img {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+        }
+        .profile span {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .name {
+            flex-grow: 1;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .nav-bar {
+            background-color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            color: #1e40af;
+            font-weight: bold;
+        }
+        main {
+            display: flex;
+            gap: 20px;
+            padding: 20px;
+            max-width: 1200px;
+            margin: 20px auto;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .left-content img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .right-content {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center; 
+            gap: 15px;
+            text-align: center; 
+        }
+        .right-content p {
+            line-height: 1.6;
+        }
+        .action-section a {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: black;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        .action-section a:hover {
+            background-color: #555;
+        }
+        .bottom-section {
+            margin-top: 20px;
+            text-align: center;
+        }
+        .bottom-section img {
+            width: 100%;
+            max-width: 600px;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+        .location {
+            font-size: 18px;
+            color: #333;
+            margin-top: 10px;
+        }
+        .button-container a {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #1e40af;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        .button-container a:hover {
+            background-color: #555;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #1e40af;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="profile">
+            <img src="Imagens/lupa.jpg" alt="Logotipo">
+        </div>
+        <div class="name">Guia Fácil</div>
+        <div class="nav-bar">Sobre</div>
+    </header>
+    <main>
+        <div class="left-content">
+            <img src="Imagens/por_dentro_Drogasil.jpg" alt="Imagem Exemplo">
+        </div>
+        <div class="right-content">
+            <h2>Tudo sobre Drogasil</h2> 
+            <p>Nascida em São Paulo, a Drogasil foi fundada em 1935. A empresa expandiu sua presença, abrindo um laboratório em 1952 e um departamento de TI pioneiro em 1967. A sede foi construída em Butantã, em 1977.</p>
+            <p>Drogasil. A gente tem uma história com você.</p>
+            <div class="action-section">
+                <a href="index.html">Voltar</a>
+            </div>
+        </div>
+    </main>
+    
+    <div class="bottom-section">
+        <img src="Imagens/Localização drogasil.png" alt="Localização da Drogasil">
+        <p>
+            Raia Drogasil SA | DROGASIL | 61.585.865/0240-93 | I.E. 116.756.280.113 | Av. Comendador Sant'Anna, 34 - 51 | Capão Redondo | São Paulo (SP).
+        </p>
+        <div class="button-container">
+            <a href="https://www.google.com/maps?q=Av.+Comendador+Sant'Anna,+34+-+51,+Capão+Redondo,+São+Paulo" target="_blank">📍 Ver no Google Maps</a>
+            <a href="index.html">Voltar</a>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Gabriel Silva. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
